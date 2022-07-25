@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,900&family=DM+Serif+Display:ital@0;1&family=Hind+Vadodara:wght@300;400;500;600&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Playfair+Display:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hind Vadodara', sans-serif;
+}
+.Main-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 20px 20px;
+}
+.vector{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 360px;
+}
+nav a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+nav a:hover{
+    border-bottom-style: solid ;
+    border-bottom-color: gold;
+}
+.logo h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.link{
+    z-index: 10;
+}
+.link a {
+    border: 2px solid rgba(51, 27, 59, 0.64);
+    padding: 12px ;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 60%;
+}
+.Business{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    position: relative;
+}
+.Help{
+    margin-top: 50px;
+}
+.Help h1 span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 99.8%;
+    /* or 87px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Help h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 87px;
+    line-height: 99.8%;
+    /* or 87px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Help p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+}
+.Help button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #331B3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 137.3%;
+    /* or 23px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Help button:hover{
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.Group{
+    position: relative;
+}
+.Group img{
+    z-index: 100;
+    width: 420px;
+}
+.Group .ellipse{
+    top: 100px;
+    right: 80px;
+    width: 370px;
+    position: absolute;
+}
+.Group .first{
+    top: 90px;
+    right: 30px;
+    position: absolute;
+}
+.Group .vector-img{
+    top: 50px;
+    right: 130px;
+    width: 270px;
+    position: absolute;
+}
+.Main-container{
+    text-align: center;
+    background-image: url(photo/Rectangle\ 2.png);
+    background-position: calc(50%-90px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 40px;
+}
+.What h1 span{
+    font-weight: 300;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom: 100px;
+    color: #331B3B;
+}
+.What h1{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom: 100px;
+    color: #331B3B;
+}
+.my-slider{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 10px;
+}
+.Design{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+.Design h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Design p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145.3%;
+    /* or 22px */
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.Design .earth{
+    background-color: #FFDED4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Design .video{
+    background-color: #FFEED4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Design .phone{
+    background-color: #D4F0FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Design .air{
+    background-color: #FFD4D4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tns-controls button{
+    padding:5px 10px;
+    color: #331B3B;
+    margin:0 30px;
+    float: left;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: #ECF7FF;
+}
+.tns-nav{
+    display: none;
+}
+.Ellip {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 300px;
+}
+.About-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About{
+    position: relative;
+    z-index: 999;
+}
+.real{
+    position: relative;
+    max-width: 650px;
+    z-index: 999;
+}
+.second-vector{
+    position: absolute;
+    left: 46px;
+    top: 180px;
+    width: 490px;
+    z-index: 99;
+}
+.second-ellipse{
+    position: absolute;
+    width: 460px;
+    left: 50px;
+    top: 185px;
+}
+.Fake h1 span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    font-family: 'Hind Vadodara';
+    
+}
+.Fake h1{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    font-family: 'Hind Vadodara';
+    margin-bottom: 20px;
+}
+.Fake p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+    margin-bottom: 20px;
+}
+.Fake button{
+    padding: 8px 20px;
+    background-color: #331B3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 137.3%;
+    /* or 23px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Fake button:hover{
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.Expert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Expert h1 span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Expert h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Expert p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #331B3B;
+}
+.Recent{
+    background-image: url(photo/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+}
+
+.landing-page{
+    padding: 10px;
+    background: #FFFFFF;
+    display: grid;
+    gap: 1rem;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.letter{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.letter a{
+    text-decoration: none;
+    padding: 3px 20px;
+    border: 1px solid #343434;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.3%;
+    /* or 20px */
+    color: #331B3B;
+}
+.tns-controls button{
+    padding:5px 10px;
+    color: #331B3B;
+    margin:0 30px;
+    float: left;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: #ECF7FF;
+}
+.tns-nav{
+    display: none;
+}
+.Expert{
+    padding: 20px;
+}
+.Mainpage{
+    padding: 30px;
+}
+.Testimonials{
+    display: grid;
+    gap: 3rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Client{
+    text-align: center;
+}
+.Client h1 span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110.8%;
+    /* or 53px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Client h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 110.8%;
+    /* or 53px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Saying{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.Rectangle{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+    padding:10px 50px 20px 20px;
+}
+.Rectangle p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #331B3B;
+}
+.Rectangle h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.Rectangle h1 span{
+    color: #FDC221;
+}
+.footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background-image: url(photo/Rectangle\ 39.png);
+    background-position: 1%+0vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.right-sidebar {
+    display: grid;
+    gap: 1rem;
+}
+.right-sidebar h1{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.right-sidebar p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.right-sidebar h2{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Email{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.Email input{
+    outline: none;
+    border: 0;
+    width: 300px;
+    background: #000000;
+    padding: 15px;
+    color: #FFFFFF;
+}
+::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Email button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0;
+    text-align: center;
+    padding: 10px 20px;
+}
+.Email button:hover{
+    color: #FFFFFF;
+    background: #000000;
+    transition: all 0.3s ease;
+}
+.left-sidebar{
+    position: relative;
+}
+.Texa{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    color: #000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 30px;
+    text-align: left;
+}
+.Texa h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 134.8%;
+    /* or 22px */
+    color: #414141;
+}
+.Texa p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 134.8%;
+    /* or 22px */
+    color: #414141;
+}
+.Texa a{
+    text-decoration: none;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 159.3%;
+    /* or 22px */
+    color: #51A0DC;
+}
+@media (max-width: 900px) {
+    .Main-header{
+        display: grid;
+        gap: 1rem;
+    }
+    .Business{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100%;
+    }
+    .Help{
+        padding: 10px;
+    }
+    .Help h1 br{
+        display: none;
+    }
+    .Help h1 span{
+        font-size: 40px;
+    }
+    .Help h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .Help p br{
+        display: none;
+    }
+    .Help button{
+        font-size: 15px;
+    }
+    .Main-container{
+        padding: 10px;
+    }
+    .What h1 br{
+        display: none;
+        
+    }
+    .What h1{
+        font-size: 30px;
+        text-align: left;
+    }
+    .What h1 span{
+        font-size: 30px;
+    }
+    .Group .ellipse{
+        display: none;
+    }
+    .Group .vector-img{
+        display: none;
+    }
+    .Group .first{
+        width: 100%;
+    }
+    .About-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .About{
+        background: #51A0DC;
+    }
+    .About .real{
+        width: 100%;
+    }
+    .About .second-ellipse{
+        display: none;
+    }
+    .About .second-vector{
+        display: none;
+    }
+    .Fake h1 br{
+        display: none;
+    }
+    .Fake h1 {
+        font-size: 30px;
+    }
+    .Fake h1 span{
+        font-size: 30px;
+    }
+    .Fake p br{
+        display: none;
+    }
+    .Fake button{
+        font-size: 15px;
+    }
+    .Expert{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .Expert h1 br{
+        display: none;
+    }
+    .Expert h1{
+        font-size: 30px;
+    }
+    .Expert h1 span{
+        font-size: 30px;
+    }
+    .Expert p br{
+        display: none;
+    }
+
+    .letter h1{
+        font-size: 20px;
+    }
+    .Client h1 br{
+        display: none;
+    }
+    .Client h1{
+        font-size: 30px;
+    }
+    .Client h1 span{
+        font-size: 30px;
+    }
+    .Saying{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Rectangle p br{
+        display: none;
+    }
+    .footer{
+        display: block;
+    }
+    .right-sidebar h1{
+        font-size: 30px;
+    }
+    .right-sidebar p br{
+        display: none;
+    }
+    .Email{
+        margin-bottom: 20px;
+    }
+    .Email input{
+        width: 100%;
+    }
+    .Email button{
+        width: 100%;
+    }
+    .left-sidebar img{
+        width: 100%;
+    }
+}
